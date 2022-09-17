@@ -1,0 +1,54 @@
+.main-conatiner{
+   
+   padding: 8vh 20vw 0 20vw;
+   color: white;
+}
+.main-conatiner > p{
+    font-weight: bolder;
+    text-shadow: black 3px;
+}
+.seat-conatiner{
+    display: flex;
+}
+.section {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.section > div {
+    border: 1px solid black;
+}
+.section > div:hover {
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: grey;
+}
+.booked {
+    background-color: #19a0d9;
+}
+
+.section .disabled:hover {
+    cursor: not-allowed;
+}
+
+button {
+    margin-top: 10px;
+}
+button{
+    height: 6vh;
+    background-color: black;
+    opacity: 4;
+    border-radius: 18px;
+    color: white;
+    padding: auto;
+    font-size: larger;
+    border: 2px white double;
+    width: 8vw;
+
+}
+button:hover{
+    cursor: pointer;
+}
